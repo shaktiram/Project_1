@@ -1,3 +1,4 @@
+/* body */
 body
 {
   font-family: 'Domine', serif;
@@ -5,10 +6,19 @@ body
   padding-bottom: 0;
 }
 
+.body1
+{
+  width: 700px;
+  margin: 20px auto;
+}
+
+/* navigation bar and header */
+
 li
 {
   float: right;
 }
+
 li a
 {
   display: block;
@@ -38,10 +48,14 @@ ul.navigation{
 
 }
 
+/* 960 grid */
+
 .container_12
 {
   margin-top: 60px;
 }
+
+/* content */
 
 .laptops
 {
@@ -54,15 +68,6 @@ ul.navigation{
   float:left;
   padding:15px;
   border: 1px solid red;
-}
-
-.hero {
-  text-align: center;
-  background-color: grey;
-  background-size: cover;
-  display: table;
-  width: 100%;
-  text-shadow: 2px 2px 8px black;
 }
 
 article{
@@ -95,16 +100,22 @@ article img{
   width: 370px;
 }
 
-.body1
-{
-  width: 700px;
-  margin: 20px auto;
-}
-
 .lap{
   height:400px;
   width:300px;
 }
+/* hero */
+
+.hero {
+  text-align: center;
+  background-color: grey;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  text-shadow: 2px 2px 8px black;
+}
+
+/* footer */
 
 footer{
   background-color: grey;
