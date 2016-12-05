@@ -57,12 +57,12 @@ ul.navigation{
 }
 
 .hero {
-text-align: center;
-background-color: grey;
-background-size: cover;
-display: table;
-width: 100%;
-text-shadow: 2px 2px 8px black;
+  text-align: center;
+  background-color: grey;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  text-shadow: 2px 2px 8px black;
 }
 
 article{
@@ -111,5 +111,4 @@ footer{
   clear: both;
   margin-bottom: 0;
   width: 100%;
-  display: block;
 }
