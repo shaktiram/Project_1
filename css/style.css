@@ -1,125 +1,119 @@
 /* body */
-body
-{
-  font-family: 'Domine', serif;
-  padding-top: 60px;
-  padding-bottom: 0;
+
+body {
+    font-family: 'Domine', serif;
+    padding-top: 60px;
+    padding-bottom: 0;
 }
 
-.body1
-{
-  width: 700px;
-  margin: 20px auto;
+.body1 {
+    width: 700px;
+    margin: 20px auto;
 }
+
 
 /* navigation bar and header */
 
-li
-{
-  float: right;
+li {
+    float: right;
 }
 
-li a
-{
-  display: block;
-  color: yellow;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-li a:hover{
-  background-color: grey;
+li a:hover {
+    background-color: grey;
 }
 
-.active
-{
-  color: red;
+.active {
+    color: red;
 }
 
-ul.navigation{
-  list-style-type: none;
-  margin: 0;
-  background-color: black;
-  position: fixed;
-  top:0;
-  right: 0;
-  width:100%;
-
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
+
 
 /* 960 grid */
 
-.container_12
-{
-  margin-top: 60px;
+.container_12 {
+    margin-top: 60px;
 }
+
 
 /* content */
 
-.laptops
-{
-  columns: 100px 3;
+.laptops {
+    columns: 100px 3;
 }
 
-.menu
-{
-  width:25%;
-  float:left;
-  padding:15px;
-  border: 1px solid red;
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
 }
 
-article{
-  width:700px;
-  margin: 20px auto;
+article {
+    width: 700px;
+    margin: 20px auto;
 }
 
-article img{
-  float: left;
+article img {
+    float: left;
 }
 
-
-.shop
-{
-  color: grey;
-  text-align: center;
+.shop {
+    color: grey;
+    text-align: center;
 }
 
-.cart
-{
+.cart {
     float: left;
     text-decoration: none;
     display: block;
     list-style-type: none;
 }
 
-.preview
-{
-  float: right;
-  width: 370px;
+.preview {
+    float: right;
+    width: 370px;
 }
 
-.lap{
-  height:400px;
-  width:300px;
+.lap {
+    height: 400px;
+    width: 300px;
 }
+
+
 /* hero */
 
 .hero {
-  text-align: center;
-  background-color: grey;
-  background-size: cover;
-  display: table;
-  width: 100%;
-  text-shadow: 2px 2px 8px black;
+    text-align: center;
+    background-color: grey;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    text-shadow: 2px 2px 8px black;
 }
+
 
 /* footer */
 
-footer{
-  background-color: grey;
-  clear: both;
-  margin-bottom: 0;
-  width: 100%;
+footer {
+    background-color: grey;
+    clear: both;
+    margin-bottom: 0;
+    width: 100%;
 }
